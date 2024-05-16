@@ -1,0 +1,24 @@
+.butts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-right: 35px;
+    
+}
+@media(max-width: 667px){
+    .butts{
+        padding-left: 0;
+        padding-right: 45px;
+    }
+}
+@media(max-width: 476px){
+    .butts{
+        padding-left: 0;
+        padding-right: 60px;
+    }
+}
+.butts button{
+    color: black;
+    background-color: black;
+}
